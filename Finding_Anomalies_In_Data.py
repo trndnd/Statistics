@@ -57,6 +57,6 @@ def FindingMedianOfAListOdd(NumbersList):
     MedianIndexValue = int((len(NumbersList) - 1)/2)
     return NumbersList[MedianIndexValue]
 
-print(LowerQuartileAndUpperQuartileForEvenLists([3,6,7,10,19,23,26,29,32,37]))
+#print(LowerQuartileAndUpperQuartileForEvenLists([3,6,7,10,19,23,26,29,32,37]))
 print(LowerQuartileAndUpperQuartileForEvenLists([3,6,7,8,9,10]))
 print(LowerQuartileAndUpperQuartileForOddLists([10,12,16,19,23]))
