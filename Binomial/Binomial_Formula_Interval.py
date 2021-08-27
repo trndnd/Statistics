@@ -19,5 +19,13 @@ class Interval_Probability():
         print(TotalProbability)
         print(f"The probability is around {round(TotalProbability * 100 ,2)}%")
         
+    def IntervalProbabilityInAArray(Interval,n,p):
+        ProbabilitiesArray = []
+        for x in range(Interval[0],Interval[-1] + 1):
+            Probability = Binomial.BinomialFormula(n,x,p)
+            ProbabilitiesArray.append(Probability)
+        return ProbabilitiesArray
+'''
 a = Interval_Probability
 a.AskingUsersForValues()
+'''
